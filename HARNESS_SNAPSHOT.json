@@ -62,7 +62,7 @@
     "sha256": "fb86c9e366fca37d56f3a9b5b5d6dd7819a132e7d5b0e05592f778fb49b60d71",
     "version": "1.1.3"
   },
-  "built_at": "2026-09-06T16:24:58+08:00",
+  "built_at": "2026-09-06T23:41:02+08:00",
   "digest_excludes": [
     "HARNESS_SNAPSHOT.json",
     "WEB_BOOTSTRAP.md"
@@ -1083,12 +1083,12 @@
       "sha256": "3f899616e5b8b6462d6bf3fcbc3a56be6b44a3bdc1730cf35cfc60abb67207a2"
     },
     {
-      "bytes": 9035,
+      "bytes": 12509,
       "layer": "web_channel",
       "mode": "0644",
       "owner": "harness",
       "path": "WEB_CONTEXT_BUNDLE.md",
-      "sha256": "6392294580958c5e0e1084cf2c60c4714220038e4e2bfe20e74b2c1affdf19b6"
+      "sha256": "b205d7833e8eaa3ec9e9eb733323f20691a73c719d4db93fcc45c18ee464d041"
     },
     {
       "bytes": 3032,
@@ -1435,12 +1435,12 @@
       "sha256": "8226e2d8197f027ef8c0a9aca83e0e9f6208d035d727e7624e94265ae3d94d6e"
     },
     {
-      "bytes": 1557,
+      "bytes": 2248,
       "layer": "problem_instance",
       "mode": "0644",
       "owner": "problem",
       "path": "problem-library/records/canonical-problems.jsonl",
-      "sha256": "e30abb1cf2f0f5b39877b895a7480943550c727f7fe4b842769dc20966179541"
+      "sha256": "d0db0a85f9750b837e08b0c7e1b7154ca0cf4603baba1bcc5c4c8a5fd7e968a4"
     },
     {
       "bytes": 3891,
@@ -1869,28 +1869,28 @@
   ],
   "harness_version": "1.1.3",
   "problem": {
-    "admission": "preview_unadmitted",
-    "contract_sha256": "e64cd03254e03dd661eade23243c3c21793fc2d8bffa2d33c172cf8ed2e7f940",
-    "lifecycle": "draft",
-    "problem_id": "problem:template-placeholder"
+    "admission": "canonical_admitted",
+    "contract_sha256": "89c7762e4d0e34895ead32139af277dfff3b3f763de6f6cbe1602b852d9ad42f",
+    "lifecycle": "active",
+    "problem_id": "problem:um-alg-026-the-herzog-sch-nheim-conjecture-e46e9f1b"
   },
   "profile": "web-research-full",
-  "repository": "vibemathing/vibe-mathing-problem-public-template",
+  "repository": "vibemathing/problem-um-alg-026-the-herzog-sch-nheim-conjecture-e46e9f1b",
   "repository_identity": {
     "binding_state": "verified",
-    "database_id": 1358726712,
+    "database_id": 1359472733,
     "default_branch": "main",
-    "full_name": "vibemathing/vibe-mathing-problem-public-template",
-    "node_id": "R_kgDOUPyGOA",
+    "full_name": "vibemathing/problem-um-alg-026-the-herzog-sch-nheim-conjecture-e46e9f1b",
+    "node_id": "R_kgDOUQfoXQ",
     "visibility": "public"
   },
   "schema_version": "1.1.0",
-  "snapshot_id": "harness-snapshot:template-placeholder",
+  "snapshot_id": "harness-snapshot:um-alg-026-the-herzog-sch-nheim-conjecture-e46e9f1b",
   "source": {
     "commit": "873d54ccacba84d38d491a10fbf185495a7cfa53",
     "repository": "reviewed-public-export",
     "source_manifest_sha256": "873d54ccacba84d38d491a10fbf185495a7cfa53dc41e91a3ba680f726d54400",
     "worktree_dirty": false
   },
-  "tree_sha256": "c4153ffe04716ae6595cfbbd0d8ba4c1a5bab7aca06564544baf50815769b6cc"
+  "tree_sha256": "b3dd1eda955cc2915533ba9c653dbb89a3b16b044eec175f36671998785058cb"
 }
